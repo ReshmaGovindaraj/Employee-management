@@ -2,7 +2,7 @@ import db from '../Db/db.js'
 const table = "authusers"
 
 class AuthUserModel{
-    static async userLoginModel(email) //find email
+    static async userLoginModel(email) 
 {
     const sql=`SELECT * FROM ${table} WHERE email=?`
     const[row]=await db.execute(sql,[email])

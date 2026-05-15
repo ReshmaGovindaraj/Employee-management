@@ -1,5 +1,4 @@
 import { hashpassword, passwordcheck } from "../utils/hash.js";
-import { createToken } from "../utils/token.js";
 import AuthUserModel from "../Model/authuserModel.js";
 import userModel from "../Model/userModel.js";
 
